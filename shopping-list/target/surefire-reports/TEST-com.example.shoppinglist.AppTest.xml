@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.shoppinglist.AppTest" time="0.053" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.shoppinglist.AppTest" time="0.048" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\loydd\OneDrive\Documents\shopping-list-lab-2\shopping-list\target\test-classes;C:\Users\loydd\OneDrive\Documents\shopping-list-lab-2\shopping-list\target\classes;C:\Users\loydd\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\loydd\OneDrive\Documents\shopping-List-Lab-2\shopping-list\target\test-classes;C:\Users\loydd\OneDrive\Documents\shopping-List-Lab-2\shopping-list\target\classes;C:\Users\loydd\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\loydd\AppData\Local\Temp\surefire16465412932500914412\surefirebooter-20250429220058546_3.jar C:\Users\loydd\AppData\Local\Temp\surefire16465412932500914412 2025-04-29T22-00-58_154-jvmRun1 surefire-20250429220058546_1tmp surefire_0-20250429220058546_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\loydd\AppData\Local\Temp\surefire6339432538288372532\surefirebooter-20250429222937619_3.jar C:\Users\loydd\AppData\Local\Temp\surefire6339432538288372532 2025-04-29T22-29-37_474-jvmRun1 surefire-20250429222937619_1tmp surefire_0-20250429222937619_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\loydd\OneDrive\Documents\shopping-list-lab-2\shopping-list\target\test-classes;C:\Users\loydd\OneDrive\Documents\shopping-list-lab-2\shopping-list\target\classes;C:\Users\loydd\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\loydd\OneDrive\Documents\shopping-List-Lab-2\shopping-list\target\test-classes;C:\Users\loydd\OneDrive\Documents\shopping-List-Lab-2\shopping-list\target\classes;C:\Users\loydd\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\loydd"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2025-01-21"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\loydd\OneDrive\Documents\shopping-list-lab-2\shopping-list"/>
+    <property name="basedir" value="C:\Users\loydd\OneDrive\Documents\shopping-List-Lab-2\shopping-list"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\loydd\AppData\Local\Temp\surefire16465412932500914412\surefirebooter-20250429220058546_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\loydd\AppData\Local\Temp\surefire6339432538288372532\surefirebooter-20250429222937619_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\loydd\AppData\Local\Temp\"/>
     <property name="java.version" value="23.0.2"/>
-    <property name="user.dir" value="C:\Users\loydd\OneDrive\Documents\shopping-list-lab-2\shopping-list"/>
+    <property name="user.dir" value="C:\Users\loydd\OneDrive\Documents\shopping-List-Lab-2\shopping-list"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
