@@ -17,5 +17,6 @@
       <TextField fx:id="itemNameField" layoutX="50.0" layoutY="70.0" promptText="Enter item name" />
       <Button fx:id="addButton" layoutX="260.0" layoutY="70.0" mnemonicParsing="false" onAction="#handleAddItem" text="Add Item" />
       <ListView fx:id="itemListView" layoutX="50.0" layoutY="120.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="removeButton" layoutX="132.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleRemoveItem" text="Remove Selected Item" />
    </children>
 </AnchorPane>

@@ -40,6 +40,22 @@ public class MainController {
     }
 
     /**
+     * Called when the user clicks the "Remove Selected Item" button.
+     */
+    @FXML
+    private void handleRemoveItem() {
+        final int selectedIndex =
+            itemListView.getSelectionModel().getSelectedIndex();
+
+        if (selectedIndex >= 0) {
+            itemListView.getItems().remove(selectedIndex);
+        } else {
+            showAlert("No Selection",
+                "Please select an item to remove.");
+        }
+    }
+
+    /**
      * Displays an alert dialog with the given title and message.
      *
      * @param title   the title of the alert
