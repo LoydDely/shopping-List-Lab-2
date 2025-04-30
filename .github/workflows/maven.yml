@@ -30,6 +30,6 @@ jobs:
     - name: Verify with Maven
       run:  |
         echo TESTING Lab 2
-        cd 'JUnit Sample'
+        cd 'shopping-list'
         mvn --batch-mode --update-snapshots clean verify
         cd ..
