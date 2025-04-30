@@ -17,6 +17,12 @@ public class MainController {
     private TextField itemNameField;
 
     /**
+     * Input field for the item quantity.
+     */
+    @FXML
+    private TextField quantityField;
+
+    /**
      * List view to display the shopping list items.
      */
     @FXML
@@ -53,6 +59,46 @@ public class MainController {
             showAlert("No Selection",
                 "Please select an item to remove.");
         }
+    }
+
+    /**
+     * Called when the user clicks the "Update Quantity" button.
+     */
+    @FXML
+    private void handleUpdateQuantity() {
+        final int selectedIndex =
+            itemListView.getSelectionModel().getSelectedIndex();
+
+        if (selectedIndex < 0) {
+            showAlert("No Selection",
+                "Please select an item to update.");
+            return;
+        }
+
+        final String quantityText = quantityField.getText().trim();
+        final int quantity;
+
+        try {
+            quantity = Integer.parseInt(quantityText);
+        } catch (NumberFormatException e) {
+            showAlert("Invalid Quantity",
+                "Quantity must be a positive number.");
+            return;
+        }
+
+        if (quantity <= 0) {
+            showAlert("Invalid Quantity",
+                "Quantity must be greater than 0.");
+            return;
+        }
+
+        final String oldItem =
+            itemListView.getItems().get(selectedIndex);
+        final String itemName = oldItem.split(" \\(Qty:")[0];
+
+        final String updatedItem = itemName + " (Qty: " + quantity + ")";
+        itemListView.getItems().set(selectedIndex, updatedItem);
+        quantityField.clear();
     }
 
     /**
