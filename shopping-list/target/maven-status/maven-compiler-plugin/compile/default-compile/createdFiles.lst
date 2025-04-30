@@ -1,1 +1,4 @@
+com\example\shoppinglist\MainApp.class
 com\example\shoppinglist\package-info.class
+com\example\shoppinglist\controller\MainController.class
+com\example\shoppinglist\controller\package-info.class
