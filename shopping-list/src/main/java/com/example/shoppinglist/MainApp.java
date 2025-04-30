@@ -29,7 +29,7 @@ public final class MainApp extends Application {
         final Parent root = loader.load();
         final Scene scene = new Scene(root);
 
-        primaryStage.setTitle("Shopping List - Blazin Nova");
+        primaryStage.setTitle("Shopping List");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
